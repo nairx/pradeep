@@ -109,16 +109,16 @@
 
 
 
-num = 8410
-sum = 0
+# num = 8410
+# sum = 0
 
-while num > 0:
-    digit = num % 10   # step 1: remainder 3 so digit is 3 step 2: remainer is 2 step 3: remainder is 1
-    sum = sum + digit # step 1: 0 + 3 so sum is 3 step 2: 3 + 2 so sum is 5 step 3: 5+ 1 so sum is 6
-    num = num // 10 #step 1: Quotient 12 step 2 Quotient is 1 step 3: quotient is 0
-    print(num,digit,sum)
+# while num > 0:
+#     digit = num % 10   # step 1: remainder 3 so digit is 3 step 2: remainer is 2 step 3: remainder is 1
+#     sum = sum + digit # step 1: 0 + 3 so sum is 3 step 2: 3 + 2 so sum is 5 step 3: 5+ 1 so sum is 6
+#     num = num // 10 #step 1: Quotient 12 step 2 Quotient is 1 step 3: quotient is 0
+#     print(num,digit,sum)
 
-print("Sum of digits:", sum)
+# print("Sum of digits:", sum)
 
 
 # 	num 	digit 	sum
@@ -126,3 +126,21 @@ print("Sum of digits:", sum)
 # step 2	84	1	1
 # step 3	8	4	5
 # step 4	0	8	13
+
+
+
+#########################
+# i=0
+# while i<5:
+#     print(i)
+#     i=i+1
+#     if i==3:
+#         break
+# print("Program Completed")
+
+while True:
+    number=input("Enter a number: ")
+    if number=="7":
+        print("You have entered correct number")
+        break
+print("Program Completed")
