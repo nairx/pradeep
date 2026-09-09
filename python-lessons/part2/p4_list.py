@@ -1,4 +1,4 @@
-numbers=[11,23,45,67,10]
+numbers=[11,23,10,45,67,10]
 # print(numbers)
 # print(numbers[0])
 # print(numbers[-1])
@@ -6,5 +6,9 @@ numbers=[11,23,45,67,10]
 # print(numbers[0:3])
 # print(numbers[3:])
 
-for i in numbers:
-    print(i)
+# numbers[0] = 99
+# print(numbers)
+
+# for i in numbers:
+#     print(i)
+
