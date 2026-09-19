@@ -1,30 +1,15 @@
-def add(a,b):
-    return a+b
-
-def subtract(a,b):
-    return a-b
-
-def multiply(a,b):
-    return a*b
-
-def divide(a,b):
-    return a/b
-
+from calc_module import *
 
 print("Math Calculator")
-
 while True:
     x=int(input("Enter first number: "))
     y=int(input("Enter second number: "))
-
     print("1.Add")
     print("2.Multiply")
     print("3.Subtract")
     print("4.Divide")
     print("5.Exit")
-
     choice = input("Enter your choice: ")
-
     if choice == "1" :
         result = add(x,y)
         print(f"Result is {result}")
@@ -41,6 +26,3 @@ while True:
         break
     else:
         print("Invalid Choice")
-
-
-
