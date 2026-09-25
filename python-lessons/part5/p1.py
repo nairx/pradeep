@@ -75,6 +75,7 @@
 # print(num)
 
 
+#External Module - use pip install matplotlib to install the package
 import matplotlib.pyplot as plt 
 year = ["2010","2011","2012", "2013", "2014"]
 sales = [1000,1400,1100,1800,2000]
